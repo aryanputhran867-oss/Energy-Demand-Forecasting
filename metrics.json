@@ -1,0 +1,29 @@
+{
+  "train_period": "2015-01-03 to 2018-12-31",
+  "test_period": "2019-01-01 to 2019-12-31",
+  "train_rows": 35015,
+  "test_rows": 8760,
+  "random_forest": {
+    "r2": 0.738,
+    "mae_mw": 81.8,
+    "rmse_mw": 96.8,
+    "mape_pct": 6.83
+  },
+  "operator_pre_dispatch": {
+    "r2": 0.848,
+    "mae_mw": 54.9,
+    "rmse_mw": 73.6,
+    "mape_pct": 4.76
+  },
+  "random_split_r2_leaky": 0.885,
+  "feature_importance": {
+    "hour": 0.671,
+    "day_of_week": 0.136,
+    "temperature": 0.05,
+    "humidity": 0.044,
+    "holiday": 0.042,
+    "day": 0.034,
+    "month": 0.021,
+    "school": 0.003
+  }
+}
